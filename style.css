@@ -35,7 +35,8 @@ h3 {
 }
 
 .box {
-    border: 2px solid var(--detalhes);
+    border: 4px double var(--detalhes);
+    box-shadow: var(--cor-secundaria) 2px 2px 25px;
     display: inline-block;
     font-size: 4em;
     padding: 10px;
