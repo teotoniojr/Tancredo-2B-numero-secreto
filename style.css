@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+:root {
+    --fonte-primaria: 'Fuggles', cursive;
+    --cor-de-fundo: #4C3D3D;
+    --cor-primaria: #FFD95A;
+    --cor-secundaria: #FFF7D4;
+    --detalhes: #C07F00;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-primaria);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--fonte-primaria);
+}
+
+h1 {
+    font-size: 5em;
+}
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 2px solid var(--detalhes);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
