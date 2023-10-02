@@ -22,15 +22,15 @@ body{
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 7em;
 }
 h3 {
-    font-size: 2em;
+    font-size: 3.5em;
     margin-top: 20px;
 }
 
 .mensagem {
-    font-size: 1.5em;
+    font-size: 2em;
     margin-top: 40px;
 }
 
@@ -38,7 +38,7 @@ h3 {
     border: 4px double var(--detalhes);
     box-shadow: var(--cor-secundaria) 2px 2px 25px;
     display: inline-block;
-    font-size: 4em;
+    font-size: 5em;
     padding: 10px;
     margin: 20px;
 }
