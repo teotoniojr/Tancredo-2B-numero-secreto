@@ -24,6 +24,10 @@ body{
 h1 {
     font-size: 7em;
 }
+h2{
+    font-size: 4em;
+}
+
 h3 {
     font-size: 3.5em;
     margin-top: 20px;
